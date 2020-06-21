@@ -25,7 +25,7 @@ function createHeart()
     htDiv.setAttribute("class","ht");
     htDiv.style.top =pixelValue(randomInteger(-150, 0));
      let wd=document.body.clientWidth;
-    htDiv.style.left = pixelValue(randomInteger(0, wd-50));
+    htDiv.style.left = pixelValue(randomInteger(0, wd-100));
     var spinAnimationName = (Math.random() < 0.5) ? 'clockwiseSpin' : 'counterclockwiseSpinAndFlip';
      htDiv.style.webkitAnimationName = 'fade, drop,'+spinAnimationName;
      var fadeAndDropDuration = durationValue(randomFloat(4, 10));
