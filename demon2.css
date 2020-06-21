@@ -78,7 +78,7 @@ transform: translateY(500px) translateX(1200px);
 @keyframes fade
 {
     0%   { opacity: 1; }
-    95%  { opacity: 1; }
+    70%  { opacity: 1; }
     100% { opacity: 0; }
 }
 @keyframes drop
